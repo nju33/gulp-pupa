@@ -5,8 +5,7 @@ import pupa from 'pupa';
 const PLUGIN_NAME = 'gulp-pupa';
 
 export const gulpPupa = (data: any[] | object = {}) => {
-  return through.obj(function(file, enc, cb) {
-    console.log(file);
+  return through.obj(function(file, _enc, cb) {
     if (file.isNull()) {
       return cb(null, file);
     }
