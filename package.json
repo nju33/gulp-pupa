@@ -1,6 +1,6 @@
 {
   "name": "gulp-pupa",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/main/main.js",
   "module": "dist/module/module.js",
   "types": "dist/types/module.d.ts",
