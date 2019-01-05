@@ -8,6 +8,9 @@
   "repository": "git@github.com:nju33/gulp-pupa.git",
   "author": "nju33 <nju33.ki@gmail.com>",
   "license": "MIT",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "prepare": "yarn build",
     "test": "jest",
