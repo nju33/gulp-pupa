@@ -1,6 +1,6 @@
 {
   "name": "gulp-pupa",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "main": "dist/main/main.js",
   "module": "dist/module/module.js",
   "types": "dist/types/module.d.ts",
@@ -16,8 +16,8 @@
     "test": "jest",
     "build:main": "tsc -P tsconfig.main.json",
     "build:module": "tsc -P tsconfig.module.json",
-		"build:types": "tsc -P tsconfig.types.json --emitDeclarationOnly",
-		"build": "run-p build:*"
+    "build:types": "tsc -P tsconfig.types.json --emitDeclarationOnly",
+    "build": "run-p build:*"
   },
   "devDependencies": {
     "@nju33/eslint-config": "^0.0.26",
