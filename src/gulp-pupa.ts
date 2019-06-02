@@ -4,7 +4,10 @@ import pupa from 'pupa';
 
 const PLUGIN_NAME = 'gulp-pupa';
 
-export const gulpPupa = (data: any[] | object = {}) => {
+export const gulpPupa = (
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  data: any[] | Record<string | number | symbol, any> = {},
+) => {
   return through.obj(function(file, _enc, cb) {
     if (file.isNull()) {
       return cb(null, file);
